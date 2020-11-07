@@ -1,0 +1,23 @@
+---
+title: "About"
+layout: "stripped"
+draft: false
+---
+It is commonly thought that nimbleness and scale are mutually exclusive. Early-stage companies are said to move fast but are chaotic and undisciplined and their "way" breaks down at scale, while more mature organizations have put in place structures that enable predictability and order necessary for work at scale, but have also in the process slowed to a crawl. I believe that this is a false dichotomy: teams can move fast not _despite_, but actually _owing to_ some basic building blocks that allow them to scale and make the code they produce count for more.
+
+I will share what I learned on my journey of leading technology development in teams ranging from 1 to hundreds of engineers, extracting themes that may be broadly applicable. At the highest level, the general idea – and a guiding thought here – is that engineers should look beyond the code they write, notice the implicit systems and structures that support their work, and intentionally design them, ideally the same way they design their technology. These "systems and structures" are literally everywhere – they show up in team organization, mandates and responsibilities, operating principles, hiring, growth and personal development, relationships with stakeholders, and even culture. More importantly, I strongly believe that it should not be the sole responsibility of "management" to design and maintain these systems. In fact, what constitutes "management" should itself be carefully designed and systematized by teams.
+
+Analogously to how we design technology, I argue that when designing these systems and structures we should follow familiar practices:
+* Not over-generalize or build something overly abstract, focusing instead on known and some likely future use cases
+* Frequently reflect on tech debt, realizing that too little or too much is sub-optimal
+* Not repeat ourselves
+* Keep things simple
+* And most importantly, test, test, test!
+
+Another guiding idea I will keep going back to is that technology development exists in a context of the broader team that shares an objective. Many frictions exist on the "fault lines" between teams and functions, and they are often seen as a "tax" of organizational complexity. This is often an outgrowth of overreliance on silos (which exist because it's easy to describe and hire for categories such as "Engineering"). If we take the view that organizational structure is an approximation of an idealized "machine" that achieves a goal, a large number of issues between functions isn't a requirement but a defect in how we've organized ourselves. Seeing Engineering as one component of a living and breathing ecosystem that has a purpose – rather than a silo to be optimized – helps make it hyper-effective.
+
+The posts here will likely be of value to a few audiences: **entrepreneurs** who want to set their organizations up for success, **aspiring leaders** who want to grow and perhaps aren't receiving the mentorship or organizational context needed for them to be effective, and **teams** who are fed up with heavy process in their organizations – or those who are reaching the limits of the current way of operating but are averse to making changes in fear of creating an inefficient bureaucracy. At times I will venture outside of just Engineering – for example, talk about areas traditionally left for Product to decide – because breaking down the walls and the traditional roles helps put in place a more effective design. Other times I will discuss a more general topic that applies not just to product development (such as how to have meetings or why it's important to start a decision process with principles). In that, I hope that non-engineerrs will find these posts helpful, but also – more importantly – I hope that engineers will share their insights with their non-engineering colleagues.
+
+The name of this site – _post-technical_ – is a tongue-in-cheek nod to a recognized (and mourned) tendency for many engineers to lose their technical skills as they advance their careers. The thesis here is that to some extent, every engineer should be at least a little bit post-technical: they should consider and shape the drivers and factors outside of the specific technology they are building[^1]. Regardless of whether you are an engineer, a Product manager, an entrepreneur, or a manager, hopefully these writings will give you some ideas on where to begin growing your post-technical muscle.
+
+[^1]: Note that I also claim that every manager should be more technical than they may be comfortable with.

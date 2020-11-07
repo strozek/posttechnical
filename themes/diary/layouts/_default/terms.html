@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post-item-wrapper">
+            <div class="post-item post-item-no-divider">
+                <div class="post-item-info-wrapper">
+                    <h5>
+                        <i>Explore posts by Tag:</i>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        {{ $posts := .Site.Pages }}
+        {{ range .Paginator.Pages }}
+                <a href="{{.Permalink}}" class="a-block">
+                    <div class="post-item-wrapper">
+                        <div class="post-item post-item-no-gaps">
+                            <div class="post-item-info-wrapper"> 
+                                <div class="post-item-title post-item-title-small">
+                                    {{.Title}}
+                                </div>
+                                {{ $.Scratch.Set "tagCounter" 0 }}
+                                {{ $.Scratch.Set "tagName" .Title }}
+                                {{ range $posts}}
+                                    {{ if in .Params.tags ($.Scratch.Get "tagName") }}
+                                        {{ $.Scratch.Add "tagCounter" 1 }}
+                                    {{ end }}
+                                {{ end }}
+                                <div>
+                                    {{ $.Scratch.Get "tagCounter" }} post{{ cond (eq ($.Scratch.Get "tagCounter") 1) "" "s" }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+        {{ end }}
+    </div>
+</div>
+
+{{ end }}

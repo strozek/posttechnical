@@ -1,0 +1,34 @@
+---
+title: "Product Management, for Engineers: Part Two"
+date: 2020-09-16T17:55:39-07:00
+draft: false
+description: "The next part in the series of our misconceptions about product management."
+tags: ["Product Management"]
+---
+[Last time](/posts/product-for-engineers-i) I argued that a product is not just a sum of its features. It's a mistake that many technical people tend to make because we are the ones building the features, so they _feel_ like the totality of the product we are building. This misconception often leads to feature bloat as teams mistakenly believe that for a product to be better, it needs to have more features. In actuality, the most sticky or successful products have surprisingly few features, but their features address a crucial set of needs. The example I have been extoling for years now has been Google Keep, Google's answer to Evernote. Keep has very few features – sometimes frustratingly so (no bullet points? no boldface? only two nested levels in the checklist?). But I could not imagine my life without it now, and I abandoned Evernote as soon as I spent my first 30 seconds with Keep. Keep addresses my (and likely others') most pressing need – the need to take a note ASAP – _extremely_ well. One tap and you're writing. Another tap and the app will remind you about the note later that day. If I can play psychologists and be in its creators' heads for a second, its lack of features is _itself a feature,_ not a limitation.
+
+On to another misconception.
+
+## Reality #2: Roadmap ≠ a list of releases
+
+It’s convenient to think of product roadmaps as lists of releases containing a bunch of features, usually visualized as two-dimensional matrices. There are numerous tools ([this](https://www.productboard.com), [this](https://www.aha.io), [this](https://craft.io/), [this](https://casual.pm/), [this](https://roadmunk.com/), [this](https://www.atlassian.com/software/jira/features/roadmaps) and [this](https://monday.com/lp/product/management/software), just to name a few) which will gladly aid you in this endeavor. I’ve heard several of my friends (entrepreneurs and VCs alike) point out the importance for a company to include a specifically formatted roadmap in the fundraising deck or in the board deck.
+
+It’s easy to see the appeal of a tool that so cleanly defines a product. It’s pretty. As a two-dimensional graphic it fits our other mediums for communication – slides, emails, posters. It _seems_ informative, with densely packed yet nicely structured information. It’s familiar and its structure can easily be understood (time on the horizontal axis, product categories or some other way to divide the work into mutually exclusive segments on the vertical). And, most importantly, it lists FEATURES!!! We love features. We get excited about seeing upcoming features, it’s like seeing the future.
+
+As with many simplifications, some fidelity is lost. However, in this case, relying on visualizations that equate a roadmap with a set of releases misses an crucial objective of a roadmap. A roadmap exists to help various constituents make better quality decisions. For the product and engineering teams, it should align their teams, help with resource management, get the engineers thinking about architecting the solution in the right way. For executives, it should connect to the company’s vision and strategy (in both direction: be an outcome of, but also inform). For Sales, it should inform their scripts. For internal stakeholders, it should help them plan their resourcing (for example, the number of support staff). A list of releases purports to be useful, but actually pushes the burden of synthesis on each of these constituents. And since these constituents are _not_ product people, they often can't come up with a good synthesis.
+
+In other words, a list of releases with their features is like a list of ingredients in a complex dish. It helps somewhat, for example if you are allergic to something. You can see if ingredients you like are in the dish. But most likely you won't be able to parse all the ingredients and get the _feel_ for the dish. Will it leave you satiated? Is it appropriate to serve it to your future in-laws? Is it a quick bite or something you really need to sit down and enjoy?
+
+Similarly, going back to products, what you lose by focusing on lists of releases is the _feel_ for the product at each of its future stages. How well will the product address your needs? Will it still feel like an MVP? Will it be appropriate for the use case you're thinking of? How well does it represent the company's vision? These questions are often left unanswered.
+
+Another issue with having a roadmap that merely lists releases and features is that this immediately reduces any conversation to a debate about said features. Stakeholders end up commenting on specific features, tweaking them or moving the priorities around, instead of asking themselves and the product team the really important questions about where the product is going. The choice of structure used to convey information shapes the conversation.
+
+So what should we use as an alternative? First, we should not ditch the lists of releases – they serve a useful purpose. But I would contextualize these lists with a more qualitative description of the product at the various milestones. Long form descriptions of what the product allows its users to do, or what key capability it offers are more engaging and can stir the imagination better. These description may draw on specific features, but the features aren't just sitting in vacuum.
+
+This narrative should also connect with key indicators and metrics that you expect to hit at each milestone. A product is successful because it has impressive usage, adoption, engagement, revenue etc. statistics, not because it has many releases, but many product owners forget to think through their metrics, using the comfortable blanket of features instead. As a stakeholder, or investor, I can engage better at a planned milestone to have the product be used by a million people, or have 10% of users be paid customers, than by looking through a list of releases.
+
+One huge advantage of providing this context is that it often acts as a sanity check on the releases themselves. I've seen PMs overhaul their priority list of features once their narrative painted a very different picture of where the product was really supposed to be going.
+
+**
+
+A roadmap is not just a list of releases with the underlying features. A roadmap should be a rich description of where the product is going, what tangible results it's going to achieve, and how it's going to feel to its users. Only once these anchors are established (and critiqued), can the roadmap move on to the releases and their features.

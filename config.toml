@@ -1,0 +1,54 @@
+baseURL = "https://posttechnical.net/"
+languageCode = "en-us"
+title = "Post·technical"
+theme = "diary"
+
+enableInlineShortcodes = true
+
+googleAnalytics = "249991570"
+# googleSiteVerification = "xxxx-xxxx"
+
+[params]
+enableReadingTime = true
+headline = "On building excellent Engineering, beyond just the code."
+favicon = "images/favicon.png"
+#googleSearchCode = "46f0f0bdd7bd03fe4"
+
+# enableGitalk = true
+#[params.gitalk]
+#  owner = "user"
+#  repo = "repo name"
+#  client_id = "your client id"
+#  client_secret = "your client secret"
+
+[taxonomies]
+tag = "tags"
+
+[[menu.main]]
+url = "/about"
+name = "About"
+weight = 1
+
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false

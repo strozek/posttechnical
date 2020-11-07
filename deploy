@@ -1,0 +1,1 @@
+scp -r conf public strozek.com:apps/blog/
