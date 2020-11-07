@@ -1,6 +1,7 @@
 
-# setup
+## setup
 
+```shell
 brew install hugo
 
 hugo new site NEW_SITE_NAME
@@ -8,30 +9,36 @@ cd NEW_SITE_NAME
 git init
 git submodule add https://github.com/PATH_TO_THEME.git themes/THEME_NAME
 echo 'theme = "THEME_NAME"' >> config.toml
+```
 
+## in prod
 
-# in prod
-
+```shell
 sudo mkdir ~/apps/blog
 sudo chown bitnami ~/apps/blog
-
 # edited /opt/bitnami/nginx/conf/bitnami/bitnami-apps-http.conf 
+```
 
-# to push to prod, from base local directory:
+## pushing to production
+```shell
+# from base local directory:
+hugo
 ./deploy
+# then scp -r conf public strozek.com:apps/blog/
+```
 
-
-# new post
-
+## new posts
+```shell
 hugo new posts/my-first-post.md
+```
 
-
-# operation
-
+## operation
+```shell
 hugo server -D # run local server, with drafts
 hugo # generate files, no drafts
+```
 
-
-# short codes example:
-
+## short codes example:
+```go
 {{< time.inline >}}{{ now }}{{< /time.inline >}}
+```
