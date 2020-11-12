@@ -5,7 +5,6 @@ theme = "diary"
 
 enableInlineShortcodes = true
 
-googleAnalytics = "249991570"
 # googleSiteVerification = "xxxx-xxxx"
 
 [params]
