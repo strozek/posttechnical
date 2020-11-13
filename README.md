@@ -11,7 +11,7 @@ git submodule add https://github.com/PATH_TO_THEME.git themes/THEME_NAME
 echo 'theme = "THEME_NAME"' >> config.toml
 ```
 
-## in prod
+## setup in prod
 
 ```shell
 sudo mkdir ~/apps/blog
@@ -19,17 +19,16 @@ sudo chown bitnami ~/apps/blog
 # edited /opt/bitnami/nginx/conf/bitnami/bitnami-apps-http.conf 
 ```
 
-## pushing to production
+## new posts
+```shell
+hugo new posts/my-first-post.md
+```
+
+## pushing posts to production
 ```shell
 # from base local directory:
 hugo
 ./deploy
-# then scp -r conf public strozek.com:apps/blog/
-```
-
-## new posts
-```shell
-hugo new posts/my-first-post.md
 ```
 
 ## operation
